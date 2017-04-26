@@ -1,4 +1,4 @@
-//Need to change code if you give r value is maximum (r-rotation)
+//Need to change code if given r value is maximum (r-rotation)
 
 #include<stdio.h>
 int n,m,r;
