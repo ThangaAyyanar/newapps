@@ -11,9 +11,9 @@ int main(){
 	int x,y,n=1,f=0,*dis=(int *)malloc(n*sizeof(int)),i;
 	scanf("%d%d",&x,&y);
 	char a,c;
-	for(i=0;;i++){
+	for(i=0;;i++){							//trick to get values dynamically
 		if(scanf("%c%d%c",&a,&dis[i],&c)==3){
-			if(c=='\n'){
+			if(c=='\n'){					//check if the i/p is completed 
 				f=1;
 			}
 			else{
